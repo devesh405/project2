@@ -1,233 +1,228 @@
-#stores{
-    box-sizing:border-box;
-    text-align: center;
-    padding: 5%;
-  }
-  h1{
-    font-size: 4rem;
-    margin: 2%;
-  }
-  .stores{
-    box-sizing:border-box;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px;
-    column-gap: 20px;
-    row-gap: 295px;
-    text-align: justify;
-  }
-  .store{
-      box-sizing:border-box;
-    padding:0 3% 3%;
-  }
-  .store:hover{
-    box-shadow: 4px 4px 4px 3px grey;
-  }
-  .store-name{
-    text-align: center;
-    font-size: 2rem;
-  }
-  .store-one{
-    width:100%;
-    height:  125%;
-    padding-bottom: 1rem;
-  }
-.store-two{
+#stores {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 5%;
+  height: inherit;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 2%;
+}
+
+.stores {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 23% 23% 23% 23%;
+  grid-template-rows: 150px 150px 150px 150px 150px 150px 150px ;
+  column-gap: 20px;
+  row-gap: 500px;
+  justify-content: center;
+  text-align: justify;
+}
+
+.store {
+  box-sizing: border-box;
+  padding: 0 3% 3%;
+}
+
+.store:hover {
+  box-shadow: 4px 4px 4px 3px grey;
+}
+
+.store-name {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.store-one {
   width: 100%;
-  height: 125%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+.store-five {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-seven {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-eight {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-six {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-nine {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-ten {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-eleven {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-twelve {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-thirteen {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-fourteen {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-fifteen {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-sixteen {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-seventeen {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-eighteen {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-nineteen {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-twenty {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-twentyone {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-twentytwo {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-twentythree {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-twentyfour {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-twentyfive {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-twentysix {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-twentyseven {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-twentyeight {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-twentynine {
+  width: 100%;
+  height: 150%;
+  padding-bottom: 0.5rem;
+}
+
+.store-thirty {
+  width: 100%;
+  height: 150%;
   padding-bottom: 1rem;
 }
 
-.store-three{
+.store-thirtyone {
   width: 100%;
-  height: 125%;
+  height: 150%;
   padding-bottom: 1rem;
 }
- 
-.store-four{
+.btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 16px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
   width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-five{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
 }
 
-.store-seven{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-eight{
-width: 100%;
-height: 125%;
-padding-bottom: 1rem;
+.cart {
+  border: 2px solid #FBCB0A;
+  background-color: #F2EBE9;
+  color: #FBCB0A;
+  transition-duration: 0.2s;
 }
 
-.store-six{
-  width: 100%;
-  height: 125%;
-padding-bottom: 1rem;
-}
-.store-nine{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-ten{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-eleven{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-twelve{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-thirteen{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-fourteen{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-fifteen{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-sixteen{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-seventeen{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-eighteen{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-nineteen{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-twenty{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-twentyone{
-width: 100%;
-height: 125%;
-padding-bottom: 1rem;
-}
-.store-twentytwo{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-twentythree{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-twentyfour{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-twentyfive{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-twentysix{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-twentyseven{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-twentyeight{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-twentynine{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-thirty{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-thirtyone{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-thirtytwo{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-thirtythree{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-thirtyfour{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-thirtyfive{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-thirtysix{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-thirtyseven{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-thirtyeight{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-thirtynine{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
-}
-.store-fourty{
-  width: 100%;
-  height: 125%;
-  padding-bottom: 1rem;
+.cart:hover {
+  background-color: #FBCB0A;
+  color: white;
 }
