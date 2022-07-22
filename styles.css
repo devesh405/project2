@@ -14,7 +14,7 @@ h1 {
   box-sizing: border-box;
   display: grid;
   grid-template-columns: 23% 23% 23% 23%;
-  grid-template-rows: 150px 150px 150px 150px 150px 150px 150px ;
+  grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px ;
   column-gap: 20px;
   row-gap: 600px;
   justify-content: center;
@@ -225,4 +225,24 @@ h1 {
 .cart:hover {
   background-color: #FBCB0A;
   color: white;
+}
+.store-thirtyseven{
+width: 100%;
+height: 150%;
+padding-bottom: 1rem;
+}
+.store-thirtyeight{
+  width: 100%;
+  height: 150%;
+  padding-bottom: 1rems;
+}
+.store-thirtynine{
+  width: 100%;
+  height: 150%;
+  padding-bottom: 1rem;
+}
+.store-fourty{
+  height: 150%;
+  width: 100%;
+  padding-bottom: 1rem;
 }
