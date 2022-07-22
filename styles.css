@@ -16,7 +16,7 @@ h1 {
   grid-template-columns: 23% 23% 23% 23%;
   grid-template-rows: 150px 150px 150px 150px 150px 150px 150px ;
   column-gap: 20px;
-  row-gap: 500px;
+  row-gap: 600px;
   justify-content: center;
   text-align: justify;
 }
